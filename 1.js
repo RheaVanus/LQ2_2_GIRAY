@@ -6,12 +6,12 @@
       ifFALSE => Print using alert() `Maybe Username or Password is Invalid or Does not Match`
 */
 
-var password = "Nikolet";
-let user_name = prompt("Please enter your username: ");
-let user_pass = prompt ("Please enter your password:");
+var password = "Nikolet"; // The set password, declared in a var
+let user_name = prompt("Please enter your username: "); // prompts or asks the user to input username
+let user_pass = prompt ("Please enter your password:");// prompts or asks the user to input the required pass word
 
 if (user_pass === password){
-    alert (`Welcome ${user_name}`);
+    alert (`Welcome ${user_name}`); //Checks if the user input of password matched to the fixed password set
 }else {
-    alert(`Maybe Username or Password is Invalid or Does not Match`)
+    alert(`Maybe Username or Password is Invalid or Does not Match`) // This message will pop up if the password is wrong
 }
